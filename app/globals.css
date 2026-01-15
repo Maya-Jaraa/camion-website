@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/effect-coverflow";
+.swiper {
+  direction: ltr;
+}
+
+.swiper-rtl {
+  direction: rtl;
+}
+.bg-tracking-gradient {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #fff8df 40%,
+    #ffe9b0 70%,
+    #fcc400 100%
+  );
+}
+.truck-pagination .swiper-pagination-bullet {
+  background: #ffc400 !important;
+  opacity: 0.4;
+}
+
+.truck-pagination .swiper-pagination-bullet-active {
+  background: #ffc400 !important;
+  opacity: 1;
+  transform: scale(1.2);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-in-out;
+}
+@theme {
+  --breakpoint-xs: 320px;
+  --breakpoint-ms: 375px;
+  --breakpoint-s: 425px;
+}
+.truck-swiper .swiper-wrapper {
+  align-items: center;
+  justify-content: center;
+}

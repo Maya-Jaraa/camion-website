@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camion App Redirect</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    #qrcode {
+      margin: 20px 0;
+    }
+    p {
+      color: #333;
+      margin: 10px 0;
+    }
+  </style>
+
+  <script>
+    window.onload = function () {
+      var userAgent = navigator.userAgent || '';
+
+      // Android
+      if (/android/i.test(userAgent)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.acrossmena.camion";
+        return;
+      }
+
+      // iOS (iPad, iPhone, iPod)
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.href = "https://apps.apple.com/us/app/camion-acrossmena/id6476457662";
+        return;
+      }
+
+      // Desktop/PC - عرض QR Code
+      var currentUrl = window.location.href;
+      new QRCode(document.getElementById("qrcode"), {
+        text: currentUrl,
+        width: 256,
+        height: 256,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H
+      });
+      document.getElementById("message").textContent = "امسح رمز QR للوصول إلى التطبيق:";
+    };
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <p id="message">Redirecting to the right app store...</p>
+    <div id="qrcode"></div>
+  </div>
+</body>
+</html>

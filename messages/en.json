@@ -1,0 +1,251 @@
+{
+    "home": {
+        "header": "Title",
+        "type": "Website"
+    },
+
+    "footer": {
+        "aboutText": "Lorem ipsum dolor sit amet consectetur. Curabitur quam.",
+        "company": "Company",
+        "aboutUs": "About us",
+        "contactUs": "Contact us",
+        "truckSize": "Truck Size",
+        "shippers": "Shippers",
+        "carriers": "Carriers",
+        "contacts": "Contacts us",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "American street Lattakia, Syria",
+        "copyright": "©Camion 2024. All rights reserved",
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Policy"
+    },
+
+    "navbar": {
+        "home": "Home",
+        "shippers": "Shippers",
+        "carriers": "Carriers",
+        "truckSize": "Truck Size",
+        "about": "About us",
+        "contact": "Contact us",
+        "getStarted": "Get Started"
+    },
+
+    "hero": {
+        "title": "The First Digital Platform For Road Freight In Syria",
+        "text": "The smart solution for managing and facilitating road freight operations. Whether you are a carrier or a shipper, we guarantee you an unparalleled safe and easy experience.",
+        "button": "Get Started"
+    },
+    "shippers": {
+        "title": "Your digital partner in land freight, full control from start to delivery.",
+        "text": "Be part of the future of smart shipping – join camion now!",
+        "button": "Get Started"
+    },
+    "truck-size": {
+        "title": "Learn about various truck options and dimensions to precisely match your shipping needs."
+    },
+
+    "about": {
+        "title": "CAMION is one of the solutions offered by Across Mena Logistics LLC for trade logistics and international shipping.",
+        "desc": "The company is continually working on enhancing its services through information technology and by leveraging the latest techniques and methods to digitalize logistics operations.",
+        "visionTitle": "Our Vision :",
+        "visionText": "To Bring About A Significant Shift In The World Of Land Freight By Offering Innovative, Safe, And Efficient Solutions That Meet The Ever-Evolving Market Demands.",
+
+        "missionTitle": "Our Mission :",
+        "missionText": "To Provide Reliable And Sustainable Transportation Services, With A Focus On Enhancing The Customer Experience Through Innovation And The Use Of Cutting-Edge Technology.",
+
+        "goalsTitle": "Our Goals :",
+        "goalsText": "To Build A Flexible Land Freight System That Swiftly Adapts To The Needs Of The Market And Customers, Thereby Promoting Operational Sustainability And Enhancing Service Excellence."
+    },
+    "camionServices": {
+        "title": "CAMION",
+        "subtitle": "Services",
+        "description": "Join the world of smart shipping and start your journey with us towards smoother and more professional logistics",
+
+        "service1_title": "Track Every Shipment in Real Time",
+        "service1_desc": "Direct visibility of truck movement in real-time throughout its journey",
+
+        "service2_title": "Streamlined Operations",
+        "service2_desc": "Instant bookings with a few clicks, easy shipment management, and reduced manual tasks.",
+
+        "service3_title": "User-friendly Interfaces",
+        "service3_desc": "Intuitive interfaces for quick access to all services.",
+
+        "service4_title": "Lower Carbon Emissions",
+        "service4_desc": "Enhanced truck efficiency to reduce carbon footprint."
+    },
+    "whyCamion": {
+        "title_label": "WHY",
+        "title_text": "CAMION ?",
+
+        "carriers_title": "Carriers earn more",
+        "carriers_1": "Search and book shipments easily.",
+        "carriers_2": "Easily manage the truck fleet.",
+        "carriers_3": "Instant alerts on truck status.",
+        "carriers_4": "Easy payment management.",
+
+        "shippers_title": "Shippers pay less",
+        "shippers_1": "Instant quotes and bookings.",
+        "shippers_2": "Track shipments on the map in real-time.",
+        "shippers_3": "Secure and reliable payment system.",
+        "shippers_4": "User-friendly and simple interface."
+    },
+    "camionInNumbers": {
+        "title_label": "CAMION",
+        "title_text": "In Numbers",
+
+        "stat1_value": "45%",
+        "stat1_text": "Increase in production efficiency",
+
+        "stat2_value": "60%",
+        "stat2_text": "Reducing the percentage of empty flights",
+
+        "stat3_value": "25%",
+        "stat3_text": "Reduce shipping costs",
+
+        "stat4_value": "25%",
+        "stat4_text": "Reduce  costs",
+
+        "stat5_value": "20%",
+        "stat5_text": "  costs"
+    },
+    "camionDownload": {
+        "title_label": "CAMION",
+        "title_text": "App",
+
+        "download_title": "Download our app",
+        "description": "The power of land freight at your fingertips. Get a comprehensive shipping experience in one app. Available now on the App Store and Google Play.",
+
+        "appstore": "App Store",
+        "googleplay": "Google Play"
+    },
+    "camionTracking": {
+        "title": "Real-time Tracking",
+        "paragraph1": "CAMION offers an advanced tracking system that allows shippers and carriers to monitor their shipments moment by moment, providing a high level of transparency and control.",
+        "paragraph2": "With real-time tracking, you can receive accurate updates on the truck's location and estimated arrival times, helping you plan effectively and avoid delays."
+    },
+    "greenLogistics": {
+        "title": "Green Logistics with CAMION",
+
+        "paragraph": "CAMION contributes to enhancing efficiency and reducing carbon emissions, making it the ideal choice for companies aiming for sustainability.",
+
+        "feature1_title": "Optimal Route Planning:",
+        "feature1_desc": "Selecting the most efficient routes to reduce distances and time, thereby minimizing the carbon footprint.",
+
+        "feature2_title": "Reducing Empty Miles:",
+        "feature2_desc": "An intelligent system that matches trucks to minimize empty trips, thereby reducing fuel consumption and carbon emissions.",
+
+        "feature3_title": "Instant Data Analysis:",
+        "feature3_desc": "Providing shippers with instant data on their carbon footprint for each shipment to enhance sustainable shipping strategies."
+    },
+    "whyChooseCamion": {
+        "title": "Why Choose Camion",
+        "subtitle": "Make your shipment smarter and smoother with CAMION.",
+
+        "item1": "User-friendly interface for easy shipment management.",
+        "item2": "Instant quotes and bookings for suitable trucks.",
+        "item3": "Full control from dispatch to final delivery.",
+        "item4": "Real-time shipment tracking.",
+        "item5": "Secure electronic payments.",
+        "item6": "Comprehensive digital record for all operations, accessible anytime."
+    },
+    "howWeWork": {
+        "title": "How We Work",
+        "subtitle": "Start now and experience a smooth, innovative shipping experience with CAMION!"
+    },
+    "steps": {
+        "step1_number": "01",
+        "step1_title": "Create a Shipment and Define Its Route",
+        "step1_desc": "Enter shipment details and define its route with ease.",
+
+        "step2_number": "02",
+        "step2_title": "Select the Right Truck Type",
+        "step2_desc": "CAMION provides various truck sizes to fit your needs.",
+
+        "step3_number": "03",
+        "step3_title": "Track Your Goods Anytime",
+        "step3_desc": "Monitor your shipment in real time with full visibility."
+    },
+    "truckTypes": {
+        "title": "Truck Types",
+        "subtitle": "Explore All the Truck Types You Need",
+
+        "truck1": "Refrigerated Truck",
+        "truck2": "Flatbed Truck",
+        "truck3": "Box Truck",
+
+        "button": "Explore More"
+    },
+    "camionOffersCarriers": {
+        "title": "What does “Camion” offer carriers?",
+
+        "service1_title": "Efficient fleet management:",
+        "service1_desc": "Direct visibility of truck movement in real-time throughout its journey.",
+
+        "service2_title": "Easily book your truck's load:",
+        "service2_desc": "Search and book available loads quickly via a user-friendly interface.",
+
+        "service3_title": "Real-time tracking for all your trucks:",
+        "service3_desc": "Monitor your truck's locations live to enhance visibility and control.",
+
+        "service4_title": "Regular updates on your truck’s status:",
+        "service4_desc": "Receive comprehensive reports on your trucks’ performance, including speed, maintenance, and fuel consumption."
+    },
+    "howToGetStarted": {
+        "title": "How to get started with Camion",
+        "subtitle": "Start now and experience a smooth, innovative shipping experience with CAMION.",
+        "step1_number": "01",
+        "step1_title": "Sign up",
+        "step1_desc": "Create your account and gain access to hundreds of available loads.",
+
+        "step2_number": "02",
+        "step2_title": "Add truck details",
+        "step2_desc": "Enter your truck’s specifications so you can match with the right loads.",
+
+        "step3_number": "03",
+        "step3_title": "Search and book loads",
+        "step3_desc": "Find loads that fit your truck and book them instantly.",
+
+        "step4_number": "04",
+        "step4_title": "Start and track your journey",
+        "step4_desc": "Track your truck live and enjoy a smooth and efficient experience."
+    },
+    "truckSwiper": {
+        "width": "Width",
+        "height": "Height",
+        "length": "Length",
+
+        "truck1_name": "Tipper Truck",
+        "truck2_name": "Flatbed",
+        "truck3_name": "Reefer",
+        "download": "Download",
+        "share": "Share",
+
+        "modal_share_text": "Truck Specs"
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "description": "Feel free to contact us for any inquiries. Our team is ready to support your logistics needs efficiently and professionally.",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email",
+        "phone": "Phone number",
+        "message": "Message",
+        "send": "Send"
+    },
+    "contactInfo": {
+        "title": "Contact Information",
+        "subtitle": "Have questions? We’re just a message away",
+
+        "phoneLabel": "PHONE",
+        "emailLabel": "EMAIL",
+
+        "phone": "00 0002 1234",
+        "email": "info@degashuit.com"
+    },
+    "alerts": {
+        "success": "message has sent successfully   ",
+        "error": "    an error occured ,please try again",
+        "sending": " sending..."
+    }
+}
