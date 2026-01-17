@@ -25,11 +25,22 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // normalize path for active state (ONLY ADDITION)
-  const normalizePath = (path: string) => {
-    if (path === "/") return "/";
-    return path.replace(/^\/(ar|en)/, "");
-  };
+
+ const normalizePath = (path: string) => {
+  let p = path.split("?")[0].split("#")[0];
+
+
+  p = p.replace(/^\/(ar|en)(?=\/|$)/, "");
+
+
+  if (p === "") return "/";
+
+ 
+  if (p.length > 1) p = p.replace(/\/+$/, "");
+
+  return p;
+};
+
 
   // Close mobile menu when clicking outside
   useEffect(() => {
@@ -116,7 +127,7 @@ export default function Navbar() {
           }`}
         >
           <Link
-            href={`/${locale}/get-started`}
+            href={`/`}
             className="text-nowrap flex items-center text-[#FFC400] bg-white font-semibold px-6 py-2 text-[14px] lg:text-[15px] rounded-[10px] shadow-sm hover:bg-[#5a470949] hover:text-white transition"
           >
             {t("navbar.getStarted")}

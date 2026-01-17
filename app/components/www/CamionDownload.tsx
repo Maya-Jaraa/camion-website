@@ -4,6 +4,7 @@ import React from "react";
 import Title from "../ui/Title";
 import { MdDownload } from "react-icons/md";
 import { GrApple } from "react-icons/gr";
+import { FaGooglePlay } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
@@ -35,17 +36,18 @@ const CamionDownload: React.FC = () => {
 
             <div className="md:px-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-5">
               <Link
-                href=""
-                className="bg-[#ffc400] text-xs md:text-lg rounded-md flex items-center justify-center text-white px-4 py-2 md:px-4 md:py-1.5 sm:w-40 transition hover:bg-[#e0b000]"
+                href="https://apps.apple.com/us/app/camion-acrossmena/id6476457662"
+                className="bg-[#ffc400] text-xs md:text-lg rounded-md flex gap-1.5 items-center justify-center text-white px-4 py-2 md:px-4 md:py-1.5 sm:w-40 transition hover:bg-[#e0b000]"
               >
                 <GrApple className="mr-2" />
                 <span>{t("appstore")}</span>
               </Link>
 
               <Link
-                href=""
-                className="bg-[#F5F5F5] text-xs md:text-lg rounded-md flex items-center justify-center text-black px-4 py-2 md:px-4 md:py-1.5 sm:w-40 transition hover:bg-gray-200"
-              >
+                href="
+https://play.google.com/store/apps/details?id=com.acrossmena.camion"
+                className="bg-[#F5F5F5] text-xs md:text-lg rounded-md flex gap-1.5 items-center justify-center text-black px-4 py-2 md:px-4 md:py-1.5 sm:w-40 transition hover:bg-gray-200"
+              ><FaGooglePlay  className="mr-2"/>
                 <span>{t("googleplay")}</span>
               </Link>
             </div>

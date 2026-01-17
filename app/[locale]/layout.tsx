@@ -10,16 +10,17 @@ export const metadata: Metadata = {
   title: "Camion Website",
   description: "",
 };
-const cairo = Cairo({
+const arabicFont = Cairo({
   subsets: ["arabic"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-ar",
+  display: "swap",
 });
 
-const inter = Inter({
+const latinFont = Inter({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
   variable: "--font-en",
+  display: "swap",
 });
 
 export default async function RootLayout({
@@ -39,7 +40,7 @@ export default async function RootLayout({
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
     >
-      <body className={`${cairo.variable} ${inter.variable}`}>
+      <body className={`${arabicFont.variable} ${latinFont.variable}`}>
         <NextIntlClientProvider
           locale={locale}
           messages={messages}
